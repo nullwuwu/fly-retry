@@ -6,6 +6,8 @@ fly plugin that intercepts failed requests and retries them whenever possible.
 
 ```bash
 npm install fly-retry
+or
+yarn add fly-retry
 ```
 
 ## Usage
