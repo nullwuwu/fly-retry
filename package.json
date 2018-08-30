@@ -1,11 +1,16 @@
 {
   "name": "fly-retry",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "Flyio plugin",
   "main": "index.js",
+  "files": [
+    "es",
+    "lib",
+    "index.js"
+  ],
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
-    "build": "babel es -d lib --source-maps"
+    "build": "rm -rf lib && babel es -d lib --source-maps"
   },
   "keywords": [
     "retry",
