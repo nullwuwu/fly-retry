@@ -46,7 +46,7 @@ client.get('/test') // The first request fails and the second returns 'ok'
 // Allows request-specific configuration
 client
   .get('/test', {
-    'fly-retry': {
+    'FlyRetry': {
       retries: 0
     }
   })
