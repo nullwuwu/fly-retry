@@ -1,0 +1,16 @@
+{
+  "name": "fly-retry",
+  "version": "1.0.0",
+  "description": "Flyio plugin",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [
+    "retry",
+    "fly-retry",
+    "flyio-retry"
+  ],
+  "author": "MinJie Cao <cmj940320@gmail.com>",
+  "license": "ISC"
+}
