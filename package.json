@@ -1,6 +1,6 @@
 {
   "name": "fly-retry",
-  "version": "1.0.1",
+  "version": "1.0.2",
   "description": "Flyio plugin",
   "main": "index.js",
   "files": [
@@ -25,5 +25,12 @@
     "babel-cli": "^6.26.0",
     "babel-preset-es2015": "^6.24.1",
     "babel-preset-stage-0": "^6.24.1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/caominjie/fly-retry.git"
+  },
+  "bugs": {
+    "url": "https://github.com/caominjie/fly-retry/issues"
   }
 }
